@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.audit_log]
+path = 'contracts/audit_log.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.split_withdrawal_wallet]
 path = 'contracts/split_withdrawal_wallet.clar'
 clarity_version = 2
