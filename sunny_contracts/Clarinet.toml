@@ -14,6 +14,11 @@ epoch = 2.5
 path = 'contracts/split_withdrawal_wallet.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.storage_with_reset_delay]
+path = 'contracts/storage_with_reset_delay.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
